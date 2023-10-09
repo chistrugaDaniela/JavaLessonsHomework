@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lesson4/Computer/Computer.iml" filepath="$PROJECT_DIR$/Lesson4/Computer/Computer.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaLessonsHomework.iml" filepath="$PROJECT_DIR$/JavaLessonsHomework.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson3_1/Lesson3_1.iml" filepath="$PROJECT_DIR$/Lesson3_1/Lesson3_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson3_2/Lesson3_2.iml" filepath="$PROJECT_DIR$/Lesson3_2/Lesson3_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson3_3/Lesson3_3.iml" filepath="$PROJECT_DIR$/Lesson3_3/Lesson3_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4/Lesson4.iml" filepath="$PROJECT_DIR$/Lesson4/Lesson4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4/Lesson4_2/Lesson4_2.iml" filepath="$PROJECT_DIR$/Lesson4/Lesson4_2/Lesson4_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson4/TemperatureConverter/TemperatureConverter.iml" filepath="$PROJECT_DIR$/Lesson4/TemperatureConverter/TemperatureConverter.iml" />
     </modules>
   </component>
 </project>
