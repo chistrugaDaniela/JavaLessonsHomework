@@ -1,7 +1,9 @@
+package shape;
+
 public class Circle extends TwoDimensionalShape {
     private double radius;
 
-    Circle(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 

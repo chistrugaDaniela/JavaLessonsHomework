@@ -1,9 +1,11 @@
+package staff;
+
 public class Student extends Person {
     private String program;
     private int year;
     private double fee;
 
-    Student(String name, String address, String program, int year, double fee) {
+    public Student(String name, String address, String program, int year, double fee) {
         super(name, address);
         this.program = program;
         this.year = year;
@@ -30,7 +32,12 @@ public class Student extends Person {
         this.fee = fee;
     }
 
+    @Override
     public String toString() {
-        return "Student[" + super.toString() + ", program = " + program + ", year = " + year + ", fee = " + fee + "]";
+        return "Student{" + super.toString() +
+                ", program='" + program + '\'' +
+                ", year=" + year +
+                ", fee=" + fee +
+                '}';
     }
 }

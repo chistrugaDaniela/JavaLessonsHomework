@@ -1,3 +1,5 @@
+package shape;
+
 public class Parallelogram {
 
     public int calculatePerimeter(int length, int width) {

@@ -1,3 +1,5 @@
+package shape;
+
 public class Sphere extends ThreeDimensionalShape {
     private double radius;
 
@@ -6,12 +8,12 @@ public class Sphere extends ThreeDimensionalShape {
     }
 
     @Override
-    double calculateFigureVolume() {
+    public double calculateFigureVolume() {
         return (4 * super.piConstant * radius * radius * radius)/3;
     }
 
     @Override
-    double calculateArea() {
+    public double calculateArea() {
         super.calculateArea();
         return super.piConstant * radius * radius;
     }

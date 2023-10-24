@@ -1,3 +1,6 @@
+import shape.*;
+import staff.*;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("-------------------Task 1------------------------");
@@ -8,9 +11,6 @@ public class Main {
         System.out.println(student);
         System.out.println(staff);
         System.out.println();
-        System.out.println(person.toString());
-        System.out.println(student.toString());
-        System.out.println(staff.toString());
 
         System.out.println("-------------------Task 2------------------------");
         Parallelogram parallelogram = new Parallelogram();
